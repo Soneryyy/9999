@@ -1,11 +1,83 @@
-<html>
-  <head>
-    <title>Project</title>
-    <h1>Welcome</h1>
-    
-  </head>
-
-  <body>
-    <p>fefuwufuewfueewuewifoiefioieoiwfwfiooioioioi</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ddd;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+        .info label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .info span {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .actions {
+            text-align: center;
+        }
+        .actions button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        .actions button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Account Page</h1>
+        <div class="profile-pic"></div>
+        <div class="info">
+            <label for="username">Username:</label>
+            <span id="username">JohnDoe</span>
+        </div>
+        <div class="info">
+            <label for="email">Email:</label>
+            <span id="email">johndoe@example.com</span>
+        </div>
+        <div class="info">
+            <label for="joined">Joined:</label>
+            <span id="joined">January 1, 2022</span>
+        </div>
+        <div class="actions">
+            <button>Edit Profile</button>
+            <button>Logout</button>
+        </div>
+    </div>
+</body>
 </html>
